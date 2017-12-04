@@ -192,7 +192,8 @@ Module.register('MMM-LocalTransport', {
     return {
         de: "i18n/de.json",
         en: "i18n/en.json",
-        sv: "i18n/sv.json"
+        sv: "i18n/sv.json",
+        fr: "i18n/fr.json"
     };
   },
   getDom: function() {
