@@ -1,6 +1,7 @@
 {
   "LOADING_CONNECTIONS": "Loading ...",
   "ARRIVAL": "arriving",
+  "DEPARTURE": "departure",
   "MINUTE_PL": "minutes",
   "MINUTE_SL": "minute",
   "SECOND_PL": "seconds",

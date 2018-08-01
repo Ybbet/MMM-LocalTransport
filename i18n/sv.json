@@ -1,6 +1,7 @@
 {
   "LOADING_CONNECTIONS": "Laddar ...",
   "ARRIVAL": "framme",
+  "DEPARTURE": "avgång",
   "MINUTE_PL": "minuter",
   "MINUTE_SL": "minut",
   "SECOND_PL": "sekunder",
