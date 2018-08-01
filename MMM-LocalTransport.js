@@ -91,9 +91,9 @@ Module.register("MMM-LocalTransport", {
 		span.innerHTML = moment(departure).locale(this.config.language).fromNow();
 		// span.innerHTML += "from " + depadd;
 		if (this.config.displayArrival && this.config.timeFormat === 24) {
-			span.innerHTML += " (" + this.translate("DEPARTURE") + ": " + moment(departure).format("H:mm") + ", " + this.translate("ARRIVAL") + ": " + moment(arrival).format("H:mm") + ")";
+			span.innerHTML += " <br/>(" + this.translate("DEPARTURE") + ": " + moment(departure).format("H:mm") + ", " + this.translate("ARRIVAL") + ": " + moment(arrival).format("H:mm") + ")";
 		} else if (this.config.displayArrival) {
-			span.innerHTML += " (" + this.translate("DEPARTURE") + ": " + moment(departure).format("h:mm") + ", " + this.translate("ARRIVAL") + ": " + moment(arrival).format("h:mm") + ")";
+			span.innerHTML += " <br/>(" + this.translate("DEPARTURE") + ": " + moment(departure).format("h:mm") + ", " + this.translate("ARRIVAL") + ": " + moment(arrival).format("h:mm") + ")";
 		}
 		// span.innerHTML += this.translate('TRAVEL_TIME') + ": ";
 		// span.innerHTML += moment.duration(moment(arrival).diff(departure, 'minutes'), 'minutes').humanize();
